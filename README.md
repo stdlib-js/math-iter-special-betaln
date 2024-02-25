@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iterBetaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-betaln@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-iter-special-betaln/tags). For example,
+
+```javascript
 import iterBetaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-betaln@v0.2.1-esm/index.mjs';
 ```
 
@@ -138,7 +143,7 @@ var bool = it.next().done;
 <script type="module">
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@esm/index.mjs';
-import iterBetaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-betaln@v0.2.1-esm/index.mjs';
+import iterBetaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-betaln@esm/index.mjs';
 
 // Create seeded iterators for generating pseudorandom numbers:
 var x = uniform( 0.0, 2.0, {
